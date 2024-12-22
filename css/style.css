@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    font-family:'initial' , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+header{
+    background-image: url(../imag/background.webp);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    margin-top: 150px !important;
+    margin-left: 100px !important;
+}
+.text{
+    background-color: #458f9c7c;
+}
+.products{
+    background-color: rgb(2, 48, 70, 100);
+    position: relative;
+}
+.pro{
+    overflow-x: auto;
+}
+.pro::-webkit-scrollbar{
+    height: 0;
+}
+.product-card{
+    background-color: rgb(0, 110, 161, 100);
+    color: white;
+    border-radius: 20px;
+}
+.btn{
+    background-color: rgb(2, 48, 70, 100);
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    min-width: 350px;
+    min-height: 50px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(112, 174, 212, 100);
+    min-height: 90vh;
+}
+form{
+    background-color: rgb(212, 227, 234, 100);
+}
+
+.naav{
+    background-color: rgb(145, 180, 191, 100);
+}
+
+.card{
+    min-width: 300px;
+}
+
+.right,.left{
+    position: absolute;
+    top: 50%;
+}
+
+.right{
+    left: 20px;
+}
+.left{
+    right:20px
+}
